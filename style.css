@@ -1,0 +1,89 @@
+/* adding font style Londrina Outline & Fredoka  */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Londrina+Outline&display=swap');
+
+/* universal selector  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+/* fredoka font */
+.fredoka-font{
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* londrina outline  */
+.londrina-font{
+    font-family: 'Londrina Outline', cursive;
+}
+
+/* ================================ header section ================================  */
+header{
+    background-color: #ed50d3;
+}
+
+header img{
+    max-width: 500px;
+    width: 90vw;
+}
+
+/* =========================== main section ===================================== */
+
+main{
+    background-color: #160a12;
+    color: white;
+}
+
+/* all section together  */
+section{
+    color: rgb(255, 0, 157);
+    margin: 1rem 0;
+}
+
+/* about section  */
+.about-section{
+    background-color: rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+    color: white;
+}
+
+/* about section heading  */
+.about-section h1 span{
+    background: linear-gradient(180deg, rgb(255, 0, 157), rgb(255, 0, 157), white);
+    font-weight: 900;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+/* team section  */
+.team-section{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+.team-section .col-md-6{
+    color: white;
+}
+
+.team-section img{
+    border-radius: 50%;
+}
+
+.musify-link{
+    background-color: rgb(255, 0, 157);
+    color: white;
+}
+
+.musify-link:hover{
+    background-color: rgba(255, 0, 157, 0.781);
+    color: white;
+}
+
+@media (max-width : 576px) {
+    .about-section,
+    .team-section, 
+    .musify-link{
+        width: 98vw;
+    }
+}
